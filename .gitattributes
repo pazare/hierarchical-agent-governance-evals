@@ -1,0 +1,5 @@
+# Internal curation scaffolding — excluded from `git archive` public exports.
+# (The public release is built as a curated fresh-history export; this makes the
+# exclusion mechanical rather than prose-only.)
+publication_prep export-ignore
+publication_prep/** export-ignore

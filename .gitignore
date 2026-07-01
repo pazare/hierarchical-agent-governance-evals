@@ -1,0 +1,20 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.ipynb_checkpoints/
+registration_packets/
+runs/governance_sandbox/
+scoring/results_*_partial.csv
+
+# Third-party source material is NOT redistributed: downloaded papers, page
+# snapshots, screenshots, and generated cards stay local and are rebuilt with
+# tools/build_source_evidence.py. The SHA-256 manifests (manifest.csv/json) and
+# docs/source_evidence_index.md remain tracked as the verification record.
+evidence/source_audit/source_files/
+evidence/source_audit/screenshots/
+evidence/source_audit/cards/
+evidence/econometric_libraries/source_files/
+evidence/econometric_libraries/screenshots/
+evidence/econometric_libraries/cards/

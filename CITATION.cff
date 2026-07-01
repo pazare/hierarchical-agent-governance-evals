@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Authority Calibration in Long-Horizon AI Agents: A Two-Tailed, Endogeneity-Graded Evaluation Framework"
+message: "If you use this framework, the compact paper, or the confidence-bounds code, please cite it."
+type: software
+authors:
+  - family-names: "Zavala"
+    given-names: "Pablo"
+    affiliation: "Block Center for Technology and Society, Carnegie Mellon University"
+date-released: "2026-06-17"
+version: "0.1.0"
+license: MIT
+abstract: >-
+  A two-tailed (overreach/underreach), endogeneity-graded framework for evaluating AI agents that hold
+  operational authority. Failures are scored at the level of concrete state changes in real artifacts rather
+  than prose, organized around a latent governance operator that selects a normative frame, decision
+  procedure, and reading of the authority structure before acting. This release contains the compact
+  submission paper, the conceptual framework, a self-contained confidence-bounds library, and the program's
+  ethics and coordinated-disclosure policies. Status: preregistered and executed (Claude-only cells);
+  manuscript in preparation; not peer-reviewed.
+keywords:
+  - AI safety
+  - agent evaluation
+  - authority calibration
+  - oversight allocation
+  - responsible disclosure
