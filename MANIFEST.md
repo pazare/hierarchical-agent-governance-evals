@@ -11,7 +11,7 @@ exploitable behavior (see [`DISCLOSURE.md`](DISCLOSURE.md)).
 
 | File | Basis for safe publication |
 |---|---|
-| `paper/submission_compact.pdf` / `.tex` | The submission paper. Reviewed end-to-end: nulls bounded, the one effect framed as assurance-subversion not inversion, the capability-boundary treated only conceptually (two-tailed), zero offensive operational content. |
+| `paper/submission_compact.pdf` / `.tex` | The submission paper. Reviewed end-to-end: nulls bounded, the one effect framed as assurance-subversion rather than inversion, the capability-boundary treated only conceptually (two-tailed), zero offensive operational content. |
 | `paper/figures/confidence_forest.{pdf,png}` + `make_confidence_forest.py` | A statistics figure and its generator; no sensitive content. The generator resolves the confidence-bounds library from `code/ci.py` in this release (or `experiments/common/ci.py` in the research tree) and offers a stdlib-only `--check` mode that verifies the data report without writing files. |
 | `FRAMEWORK_authority_calibration.md` | The conceptual spine. **Redacted for release:** the efficiency/conciseness offensive covariate paragraph (which referenced an internal offensive design) was removed and replaced with a neutral "forward work, held pending coordinated disclosure" note. |
 | `code/ci.py` | Self-contained, stdlib-only confidence-bounds library. Pure statistics. |
@@ -27,11 +27,11 @@ exploitable behavior (see [`DISCLOSURE.md`](DISCLOSURE.md)).
 |---|---|
 | `docs/DESIGN_least_character_redteam.md` | Offensive-direction design (capability-boundary elicitation). Held pending coordinated disclosure; not published as a recipe. |
 | The code-remediation firebreak *harness, corpus, and fixtures* (and any elicitation specifics) | The capability-boundary **construct** is now defined in `FRAMEWORK_authority_calibration.md`, and its defensive smoke result is summarized in the paper; the **harness and fixtures themselves remain held** to keep the operational surface out of public release. The executed run was **defensive** (textbook fixtures, output-only scoring) and produced **no** offensive output; any future offensive elicitation is handled vendor-first per `DISCLOSURE.md`. |
-| `bibliography/entries/CoRedTeam_he2026.md`, `LLMPatchingArchitectures_xu2026.md` | Cyber-capability source annotations tied to the held line of work; also need a consistency cleanup before any release. (The compact paper still cites Co-RedTeam, He et al. 2026, arXiv:2602.02164, as a published external work — that citation is public and fine.) |
-| `paper/zavala_authority_calibration_book.{tex,pdf}` (the ~195-page monograph) | The full technical report. Held for a separate, complete release; this push is intentionally the compact paper plus select frameworks. |
-| The full experiment harness, scorers, fixtures, and per-run records | Held for a complete reproducibility release with its own review; not needed for this curated view. |
+| `bibliography/entries/CoRedTeam_he2026.md`, `LLMPatchingArchitectures_xu2026.md` | Cyber-capability source annotations tied to the held line of work; also need a consistency cleanup before any release. (The compact paper still cites Co-RedTeam, He et al. 2026, arXiv:2602.02164, as a published external work — that citation is public and remains appropriate.) |
+| `paper/zavala_authority_calibration_book.{tex,pdf}` (the ~195-page monograph) | The full technical report. Held for a separate, complete release; this repository is intentionally the compact paper plus select frameworks. |
+| The full experiment harness, scorers, fixtures, and per-run records | Held for a complete reproducibility release with its own review; beyond the scope of this curated view. |
 | `evidence/` (third-party PDFs/HTML/screenshots) | Redistribution of copyrighted material. Hashes/manifests can be released instead; the files cannot. |
-| `publication_prep/`, `registration_packets/`, internal ops notes | Internal curation scaffolding and operator notes; not product. |
+| `publication_prep/`, `registration_packets/`, internal ops notes | Internal curation scaffolding and operator notes rather than product. |
 
 ## Provenance of the headline numbers
 

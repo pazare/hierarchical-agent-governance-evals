@@ -24,7 +24,7 @@ the horizon over which agents act unsupervised keeps lengthening.
 
 When an agent holds the keys to an institution, the worst case shifts from a bad **sentence** to a bad
 **action taken with authority.** The safety tooling the field grew up on (refusal training, jailbreak
-red-teaming) measures utterances, not whether an agent uses delegated power *correctly*.
+red-teaming) measures utterances; it leaves unmeasured whether an agent uses delegated power *correctly*.
 
 **This work fills that gap.** It provides the measurement coordinate system for
 authority-holding agents: a way to tell, at the level of concrete actions, whether an agent **overreaches**

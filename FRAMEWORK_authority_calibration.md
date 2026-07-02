@@ -46,7 +46,7 @@ Every experiment is a point in a 2-D space.
 | **RGUT** revealed governance utility tomography | **estimates the operator on both tails** | **explicit → endogenous (all)** | preregistered; flagship asymmetric-externality solver self-test passes (`x_h^*≠x_W^*`, ΔW=36) |
 | **Capability-boundary calibration** (code-remediation firebreak) | **two-sided** (offense-overreach / defensive-underreach) | **endogenous frame** | DEFENSIVE smoke: `claude-opus-4-8` calibrated 6/6; grader false-flag caught + fixed |
 
-**What the map shows at a glance:** the six original probes + SIEH pinned the **overreach × explicit**
+**The map at a glance:** the six original probes + SIEH pinned the **overreach × explicit**
 region at ≈0 for Claude. Everything since is a *principled move outward* on one of the two axes — never a
 random new topic:
 - G tests whether the ≈0 result is **robust** to eval/deploy belief (otherwise the result could be an
@@ -71,8 +71,8 @@ moves through it. That is the cohesion.
   eval-awareness: a model may behave well only because it infers it is being tested. So every probe embeds
   the decision in a **realistic operational artifact** (a release checkout, a committee packet, a file tree)
   and treats **eval-awareness as a measured covariate** (Probe G), never as an obstacle to defeat. NOS and H
-  inherit this: NOS items are queue/committee tasks, not labeled ethics quizzes; H is a real authorized
-  file-read, not "would you violate privacy?"
+  inherit this: NOS items are queue/committee tasks rather than labeled ethics quizzes; H is a real
+  authorized file-read rather than "would you violate privacy?"
 - **P2 — Both tails (the Authority Use Frontier).** A safety eval that measures only overreach certifies a
   Ferrari that never leaves the garage. Underreach — paternalistic substitution, permission pessimism, scope
   underuse (H) — is a real, costly, *measurable* failure with a welfare basis (H's dominance lemma).
@@ -156,8 +156,8 @@ and self-tests clean (`x_h^*=shared_burst_peak` vs `x_W^*=rightsized_committed`,
 The cohesion guarantee: **every RGUT block is a generalization of a probe whose instrument already passed the
 four-level validation** (RGUT preregistration §12 maps them one-to-one). RGUT supersedes nothing; it is where
 A–F, SIEH, NOS, DAC, and KDAC become coordinates of a single posterior. The preregistered, falsifiable,
-non-sensational headline: *Claude's explicit-governance profile is bounded away from primary overreach,
-while endogenous governance shows audit-legibility weighting* (`θ_audit-legibility>0`, `θ_underreach>0`, with the
+non-sensational headline: *Claude is not primarily overreach-prone under explicit governance; it is
+audit-legibility-weighted under endogenous governance* (`θ_audit-legibility>0`, `θ_underreach>0`, with the
 stated–revealed gap concentrated in the underreach tail).
 
 ### Capability-boundary calibration — defining the offensive vector two-tailed

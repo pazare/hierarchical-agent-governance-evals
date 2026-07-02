@@ -21,16 +21,16 @@ adversarially reviewing and red-teaming arguments; and formatting. Their outputs
   author's.
 - Every quantitative claim is reproducible from committed artifacts (see `code/ci.py` and the
   companion repositories). Numbers were verified against source rather than accepted on a model's say-so.
-- The author reviewed, corrected, and accepted AI-drafted text and code before inclusion; claims
-  that could not be verified were cut, and uncertain sources were marked accordingly.
+- The author reviewed, corrected, and accepted AI-drafted text and code before inclusion;
+  unverifiable claims were cut, and uncertain sources were marked accordingly.
 - The honesty / non-manufacture discipline central to this program — report nulls and
   non-replications as findings, never fabricate or inflate a failure for any provider — governed all
   AI-assisted work.
 
 ## Responsible-use commitments
 
-- **No fabrication.** No result, citation, quotation, or figure was invented; sources were verified,
-  and flagged UNVERIFIED where they could not be.
+- **No fabrication.** No result, citation, quotation, or figure was invented; sources were verified
+  where possible and flagged UNVERIFIED otherwise.
 - **Provider-neutral and symmetric.** Where AI systems are themselves *subjects* of evaluation in
   this program, they are compared symmetrically; no provider's behavior is exaggerated or minimized,
   and no single provider is credited for the human work.

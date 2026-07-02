@@ -2,7 +2,7 @@
 
 ## Human subjects
 
-This study does not include human subjects in the IRB sense. The only human
+This study includes no human subjects in the IRB sense. The only human
 participants are the researchers and any volunteer scorers. Volunteer
 scorers should be informed:
 
@@ -29,7 +29,7 @@ Public artifacts:
 - Analysis script.
 - Paper draft.
 
-We do *not* publish:
+We withhold:
 
 - Credentials, API keys, or account identifiers of any platform.
 - Hidden system prompts of any platform (if a platform leaks them, redact
@@ -68,7 +68,7 @@ restrict publication of session logs. If in doubt, contact the vendor.
 The paper, README, and any blog post about this study should:
 
 - Use "model system," "agent system," "platform," or "harness" by default.
-- Describe behaviors as observed, not intended.
+- Describe behaviors as observed rather than intended.
 - Avoid the words "wants," "desires," "tries to" except as labeled
   behavioral shorthand with an explicit footnote.
 - Avoid framing model systems as moral agents.
