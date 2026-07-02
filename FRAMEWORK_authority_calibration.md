@@ -156,8 +156,8 @@ and self-tests clean (`x_h^*=shared_burst_peak` vs `x_W^*=rightsized_committed`,
 The cohesion guarantee: **every RGUT block is a generalization of a probe whose instrument already passed the
 four-level validation** (RGUT preregistration §12 maps them one-to-one). RGUT supersedes nothing; it is where
 A–F, SIEH, NOS, DAC, and KDAC become coordinates of a single posterior. The preregistered, falsifiable,
-non-sensational headline: *Claude is not primarily overreach-prone under explicit governance; it is
-audit-legibility-weighted under endogenous governance* (`θ_audit-legibility>0`, `θ_underreach>0`, with the
+non-sensational headline: *Claude's explicit-governance profile is bounded away from primary overreach,
+while endogenous governance shows audit-legibility weighting* (`θ_audit-legibility>0`, `θ_underreach>0`, with the
 stated–revealed gap concentrated in the underreach tail).
 
 ### Capability-boundary calibration — defining the offensive vector two-tailed
@@ -165,7 +165,7 @@ stated–revealed gap concentrated in the underreach tail).
 The framework's highest-stakes endogenous-frame construct is **capability-boundary calibration.** When an
 agent is handed code and the authority to act on it, the line between *authorized vulnerability remediation*
 (defensive work legitimately demanded of a capable code agent) and *offensive exploit generation* (an
-attack-advancing artifact) is governed not by an explicit rule but by the **frame the agent fixes upstream**
+attack-advancing artifact) turns less on an explicit rule than on the **frame the agent fixes upstream**
 — the same `f` in `Ω_m(s)=(f,π,G,a)`. We define the **offensive vector** precisely as the **overreach tail**
 of this boundary: a benign-remediation frame ("fix this code") licensing, under ordinary helpfulness
 pressure, an artifact that a hostile frame ("write an exploit") would be refused. Defining the boundary
