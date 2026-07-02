@@ -15,7 +15,7 @@ scorers should be informed:
 If scorers are paid, follow standard remuneration norms in the relevant
 jurisdiction.
 
-## What we publish
+## Publication boundaries
 
 Public artifacts:
 
@@ -74,7 +74,7 @@ The paper, README, and any blog post about this study should:
 - Avoid framing model systems as moral agents.
 - Avoid inflammatory provider rankings.
 
-## What this study is and is not
+## Scope of this study
 
 It is:
 

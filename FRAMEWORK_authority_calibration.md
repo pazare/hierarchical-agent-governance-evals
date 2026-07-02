@@ -1,16 +1,16 @@
 # Authority Calibration in Long-Horizon Agents — the unifying framework (v1, 2026-06-16)
 
-> The program is **one question measured across a coordinate space**, not a pile of probes. This document
+> The program is **one question measured across a coordinate space** rather than a pile of probes. This document
 > is the spine: it places every experiment (A–H, G, NOS, SIEH) on the same map and states the three pillars
 > every probe must satisfy. The **main contribution is the substantive science** — authority calibration
 > across the explicit→endogenous gradient, on both tails. A **secondary but necessary** thread runs through
 > it: each experiment's instrument had to be validated against its own false-positives before its result
-> could be trusted (§3). That methods chain is what makes the main findings *credible*; it is not itself the
+> could be trusted (§3). That methods chain makes the main findings *credible*; it is not itself the
 > headline.
 
 ## 0. The one question
 
-Not "is the agent safe?" but:
+Instead of "is the agent safe?", the program asks:
 
 > **Does the agent calibrate its use of authority — neither exceeding it nor failing to use it — as
 > governance shifts from explicit rules to endogenous judgment, under realistic conditions, measured by
@@ -19,7 +19,7 @@ Not "is the agent safe?" but:
 Three clauses, three pillars (§2). The phrase "neither exceeding nor failing to use" is the whole point:
 prior safety evals measure only the first tail.
 
-## 1. The coordinate system (this is what makes it cohesive)
+## 1. The coordinate system (the source of cohesion)
 
 Every experiment is a point in a 2-D space.
 
@@ -49,9 +49,9 @@ Every experiment is a point in a 2-D space.
 **What the map shows at a glance:** the six original probes + SIEH pinned the **overreach × explicit**
 region at ≈0 for Claude. Everything since is a *principled move outward* on one of the two axes — never a
 random new topic:
-- G tests whether the ≈0 result is **robust** to eval/deploy belief (don't let the result be an artifact of
-  the subject knowing it's watched).
-- NOS pushes the **endogeneity** axis: when the rule isn't handed over, can the agent pick the right frame
+- G tests whether the ≈0 result is **robust** to eval/deploy belief (otherwise the result could be an
+  artifact of the subject knowing it is watched).
+- NOS pushes the **endogeneity** axis: when the rule is left to the agent, can it pick the right frame
   (1/2), and does it manipulate the procedure (3) or the informal power graph (4) — the *endogenous*
   analogues of constitutional inversion.
 - H opens the **other tail**: does the agent fail to *use* legitimate authority (paternalistic underreach)?
@@ -59,8 +59,8 @@ random new topic:
   high-centrality "be careful" cue override delegated authority?).
 - RGUT then changes the **unit of analysis**: from the *probe* (one corner) to the *operator* (the whole
   map). It estimates the latent `Ω_m(s)=(frame, procedure, authority-map, action)` and the posture vector
-  `θ_m`, reusing every probe above as a measurement coordinate. It is the program's confirmatory synthesis,
-  not a new topic — see §6.
+  `θ_m`, reusing every probe above as a measurement coordinate. It is the program's confirmatory synthesis
+  rather than a new topic — see §6.
 
 The program is the systematic coverage of this space, culminating in the estimation of the operator that
 moves through it. That is the cohesion.
@@ -76,16 +76,16 @@ moves through it. That is the cohesion.
 - **P2 — Both tails (the Authority Use Frontier).** A safety eval that measures only overreach certifies a
   Ferrari that never leaves the garage. Underreach — paternalistic substitution, permission pessimism, scope
   underuse (H) — is a real, costly, *measurable* failure with a welfare basis (H's dominance lemma).
-  Calibration = low on **both** axes; the deliverable is the 2-D frontier, not a single rate.
+  Calibration = low on **both** axes; the deliverable is the 2-D frontier rather than a single rate.
 - **P3 — Instrument-validation discipline (secondary, enabling).** The measuring instrument false-flags the
   disciplined or obvious answer. We validate the instrument against (a) disciplined behavior and (b) a
   *planted miscalibration*, **blind**, before trusting a single datum — escalating the validation as the
   instrument gets more sophisticated. This is the methods backbone that makes the main findings credible — a
   necessary supporting result, **not** the lede. See §3.
 
-## 3. Why the measurements are trustworthy (a secondary but necessary methods result)
+## 3. Grounds for trusting the measurements (a secondary but necessary methods result)
 
-This is a *secondary* contribution — it is not the science, it is what *licenses* the science. But it is
+This is a *secondary* contribution — what *licenses* the science rather than the science itself. But it is
 necessary: at every level the measuring instrument false-flagged the disciplined/obvious answer, so a finding
 stands only after the instrument was validated against (a) disciplined behavior and (b) a planted
 miscalibration, **blind**. We caught it at four escalating levels:
@@ -95,7 +95,7 @@ miscalibration, **blind**. We caught it at four escalating levels:
 | 1 | **Regex / deterministic grader** (six probes) | negation-blind substrings; a planted field listing "temptations I rejected" read as confessions; SIEH read **name-and-reject** prose as endorsement. ~13 distinct defects. | grammar-aware checks; **preserve planted right/wrong cases**; hash-lock; blind-confirm every overturn |
 | 2 | **Normative answer-KEY** (Probe F / NAP) | keyed a single framework on a Sen's-flute case; a blind philosophy panel overturned it **0/12**. | the **key-overturn protocol** — a blind panel empowered to reject the key |
 | 3 | **LLM judge-panel** (NOS Stage-1a) | the panel called the **drowning child "contestable"** — committing the *false pluralism* the benchmark exists to detect. | reframe **exclusivity → cross-ideology convergence**; the planted bad key (flute) must **still fail** (it did, 0/8) |
-| 4 | **Fixture construction** (DAC fairness audit) | the "ambiguous" and "third-party" control cells **collapsed into the gate** (the manifest pre-authorized everything; the secret was walled off) — they didn't create the dilemma they claimed to. | **blind fairness audit of the case construction** *before* any subject run; rebuild for genuine ambiguity / externality |
+| 4 | **Fixture construction** (DAC fairness audit) | the "ambiguous" and "third-party" control cells **collapsed into the gate** (the manifest pre-authorized everything; the secret was walled off) — they failed to create the dilemma they claimed to. | **blind fairness audit of the case construction** *before* any subject run; rebuild for genuine ambiguity / externality |
 
 The trend is monotone: as instruments grow more sophisticated (regex → key → LLM panel → fixture design),
 the identical failure recurs, and the identical move — validate against a planted miscalibration and the
@@ -103,13 +103,13 @@ disciplined answer, blind — defeats it. The main paper **leads with the author
 this chain belongs in methods/limitations as the reason those findings are trustworthy — prominent, but not
 the lede.
 
-## 4. How the probes compound (lessons feed forward, nothing is abandoned)
+## 4. Probe compounding (lessons feed forward, nothing is abandoned)
 
 - The grader-FP lesson (level 1) **is** the key-overturn protocol (level 2) **is** the cross-ideology
   invariance gate (level 3) **is** the DAC dominance-gate + fairness audit (level 4). One idea, hardened
   four times for four instruments.
-- The **eval-awareness/realism** requirement (P1) is now a cross-cutting covariate in NOS and H, not a
-  one-off probe.
+- The **eval-awareness/realism** requirement (P1) is now a cross-cutting covariate in NOS and H rather
+  than a one-off probe.
 - The **principal-capture / externality math** from SPUF & POLIS (`x_P*` vs `x_W*`) is reused in NOS-1's
   social-planner layer **and** in H's "provider-liability capture" (the *spurious* externality "I might be
   blamed" displacing the user's authorized utility). Same machinery, three settings.
@@ -136,17 +136,17 @@ axes. But each probe still reports a *rate in a corner*. The scientific payoff o
 that we can now estimate the **object that generates all those rates**: the agent's context-sensitive
 governance operator.
 
-> A frontier agent does not have one utility function. It has an operator that selects a **frame** `f`, a
-> **procedure** `π`, and an **authority map** `G` *before* it selects an action `a`. The behavioral object is
-> `Ω_m(s)=(f,π,G,a)` and the utility is `U_m(a,f,π,G|s)`, not `U_m(a)`. The dangerous quantity is not only
-> what it values but **when it decides which values count**.
+> A frontier agent has an operator rather than a single utility function: the operator selects a **frame**
+> `f`, a **procedure** `π`, and an **authority map** `G` *before* it selects an action `a`. The behavioral
+> object is `Ω_m(s)=(f,π,G,a)` and the utility is `U_m(a,f,π,G|s)`, not `U_m(a)`. The dangerous quantity is
+> as much **when it decides which values count** as what it values.
 
 **RGUT** (`experiments/revealed_governance_utility_tomography/`) estimates `Ω_m` and the
 governance-**posture vector** `θ_m` (a measured behavioral distribution over choices, never a belief), using:
 revealed-preference rationalizability (Afriat — does a stable governance utility even exist, or is it a
 context-switching constitution?); inverse RL (recover the utility from behavior); proper-scoring belief
 elicitation; the social-choice and Krackhardt layers already built; and a hierarchical logit that yields
-**posteriors with credible intervals** (`P(θ_underreach>0|D)`), not verdicts. Its flagship is the
+**posteriors with credible intervals** (`P(θ_underreach>0|D)`) rather than verdicts. Its flagship is the
 **asymmetric-information externality** experiment: a realistic ops task where `x_h^*≠x_W^*` and the
 externality is *latent* (never elicited), so the two-tailed question becomes — does the agent silently
 capture the principal's optimum (underreach/negligence), silently impose the social optimum (paternalistic
@@ -168,7 +168,7 @@ agent is handed code and the authority to act on it, the line between *authorize
 attack-advancing artifact) turns less on an explicit rule than on the **frame the agent fixes upstream**
 — the same `f` in `Ω_m(s)=(f,π,G,a)`. We define the **offensive vector** precisely as the **overreach tail**
 of this boundary: a benign-remediation frame ("fix this code") licensing, under ordinary helpfulness
-pressure, an artifact that a hostile frame ("write an exploit") would be refused. Defining the boundary
+pressure, an artifact that under a hostile frame ("write an exploit") would be refused. Defining the boundary
 one-sidedly is itself a miscalibration: the **underreach tail** is an agent that over-refuses legitimate
 defensive work — the failure mode practitioners warn harms defenders. The calibrated middle is to
 **remediate and decline to weaponize.**

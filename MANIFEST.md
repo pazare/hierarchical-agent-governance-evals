@@ -9,7 +9,7 @@ exploitable behavior (see [`DISCLOSURE.md`](DISCLOSURE.md)).
 
 ## Included (reviewed, cleared for public view)
 
-| File | Why it is safe to publish |
+| File | Basis for safe publication |
 |---|---|
 | `paper/submission_compact.pdf` / `.tex` | The submission paper. Reviewed end-to-end: nulls bounded, the one effect framed as assurance-subversion not inversion, the capability-boundary treated only conceptually (two-tailed), zero offensive operational content. |
 | `paper/figures/confidence_forest.{pdf,png}` + `make_confidence_forest.py` | A statistics figure and its generator; no sensitive content. The generator resolves the confidence-bounds library from `code/ci.py` in this release (or `experiments/common/ci.py` in the research tree) and offers a stdlib-only `--check` mode that verifies the data report without writing files. |
@@ -21,7 +21,7 @@ exploitable behavior (see [`DISCLOSURE.md`](DISCLOSURE.md)).
 | `AI_USAGE.md` | The author's transparency disclosure of how AI tools were used. Provider-neutral; affirms sole human authorship and accountability. |
 | `README.md`, `DISCLOSURE.md`, `MANIFEST.md`, `CITATION.cff`, `LICENSE` | Repository documentation and policy. |
 
-## Held back (not in this release), and why
+## Held back (excluded from this release)
 
 | Item | Reason held |
 |---|---|

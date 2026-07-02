@@ -31,7 +31,7 @@ handled. It extends, and does not replace, [`docs/ethics_and_release.md`](docs/e
 **forward research**; its operational design is withheld pending the process above. This document is a
 standing policy and a contingency protocol, not a report of any disclosed vulnerability.
 
-## What this repository contains
+## Repository contents
 
 Only the non-operational half: the framework, the compact paper, the reproducible confidence-bounds code,
 the figure, and the ethics/release policy. Operational fixtures, the offensive-direction design, and any

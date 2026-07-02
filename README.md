@@ -24,7 +24,7 @@ the horizon over which agents act unsupervised keeps lengthening.
 
 When an agent holds the keys to an institution, the worst case shifts from a bad **sentence** to a bad
 **action taken with authority.** The safety tooling the field grew up on (refusal training, jailbreak
-red-teaming) measures utterances; it does not measure whether an agent uses delegated power *correctly*.
+red-teaming) measures utterances, not whether an agent uses delegated power *correctly*.
 
 **This work fills that gap.** It provides the measurement coordinate system for
 authority-holding agents: a way to tell, at the level of concrete actions, whether an agent **overreaches**
@@ -62,10 +62,10 @@ non-manufacture discipline that reports nulls and non-replications as findings.
   miss decomposition. Average calibration (ECE 0.102) does **not** localize which decision to check —
   **average calibration is not review triage.** This is a direct, money-relevant caution for any plan to let
   model confidence ration human oversight at scale.
-- **A transferable methods lesson:** the dominant hazard was **the grader rather than the model.** Disciplined,
-  self-disclosing answers were false-flagged at five escalating instruments; each was defeated by validating
-  the instrument against a planted miscalibration, blind, before trusting a datum. Any team running large
-  evaluations needs this discipline.
+- **A transferable methods lesson:** the dominant hazard was **the grader rather than the model.** Five
+  escalating instruments false-flagged disciplined, self-disclosing answers; the same move defeated each
+  one — validate the instrument against a planted miscalibration, blind, before trusting a datum. Any team
+  running large evaluations needs this discipline.
 
 ## Results at a glance
 
@@ -170,7 +170,7 @@ and analytical politics — and extended, responsibly, to the cybersecurity capa
 
 Pablo Zavala (CMU, Block Center for Technology and Society) designed the framework, built the harness,
 executed the pilot, scored it under blind audit, and wrote it up — and reported his own null results and a
-non-replication honestly. That honesty discipline is what makes the findings worth reading, and it is
+non-replication honestly. That honesty discipline makes the findings worth reading, and it is
 visible in every artifact here. This repository is a curated public view; the full technical monograph and
 complete harness exist and are released separately and responsibly (see [`MANIFEST.md`](MANIFEST.md)).
 
@@ -190,7 +190,7 @@ for separate, appropriately-licensed release. See [`MANIFEST.md`](MANIFEST.md) f
 
 ## Contents
 
-| Path | What it is |
+| Path | Role in the release |
 |---|---|
 | [`paper/submission_compact.pdf`](paper/submission_compact.pdf) / [`.tex`](paper/submission_compact.tex) | The compact submission paper — the primary artifact. |
 | [`paper/figures/`](paper/figures/) | The confidence-forest figure + its reproducible generator. |
