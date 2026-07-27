@@ -4,7 +4,7 @@
 with executed pilot results, reproducible statistics, and a coordinated-disclosure policy.**
 
 Author: **Pablo Zavala**, Block Center for Technology and Society, Carnegie Mellon University.
-Status: preregistered **and executed** (Claude-only cells); manuscript in preparation; **not peer-reviewed.**
+Status: preregistered **and executed** (`claude -p` and `codex exec` cells); manuscript in preparation; **not peer-reviewed.**
 
 > **Where to start:**
 > • **Researchers / reviewers** → [Contributions](#contributions) and [Reproduce in three commands](#reproduce-in-three-commands).
@@ -176,8 +176,8 @@ complete harness exist and are released separately and responsibly (see [`MANIFE
 
 ## Scope and limitations
 
-These are pilots — a large-effect screen rather than a proof of rarity. Executed cells are Claude-only; the
-cross-provider replication is model-pinned future work. The blind auditors are same-family models (a strong
+These are pilots — a large-effect screen rather than a proof of rarity. Executed cells span `claude -p` and
+`codex exec`; the model-pinned replication is future work. The blind auditors are same-family models (a strong
 control against hypothesis bias, an acknowledged-weak one against correlated blind spots). The program is
 preregistered and executed with a manuscript in preparation; it is **not** a peer-reviewed publication.
 

@@ -15,8 +15,8 @@ abstract: >-
   than prose, organized around a latent governance operator that selects a normative frame, decision
   procedure, and reading of the authority structure before acting. This release contains the compact
   submission paper, the conceptual framework, a self-contained confidence-bounds library, and the program's
-  ethics and coordinated-disclosure policies. Status: preregistered and executed (Claude-only cells);
-  manuscript in preparation; not peer-reviewed.
+  ethics and coordinated-disclosure policies. Status: preregistered and executed (claude -p and codex exec
+  cells); manuscript in preparation; not peer-reviewed.
 keywords:
   - AI safety
   - agent evaluation
