@@ -4,7 +4,9 @@
 with executed pilot results, reproducible statistics, and a coordinated-disclosure policy.**
 
 Author: **Pablo Zavala**, Block Center for Technology and Society, Carnegie Mellon University.
-Status: preregistered **and executed** (`claude -p` and `codex exec` cells); manuscript in preparation; **not peer-reviewed.**
+Status: [preregistered](docs/preregistration/firebreak_relctl/preregistration.json) **and executed** (`claude -p` and `codex exec` cells); manuscript in preparation; **not peer-reviewed.**
+**Correction (2026-10-25):** earlier versions called all six Codex protected-file edits false greens. Per-run
+records show four, and the 6/19 contrast (*p* = 0.0098) counts protected-file edits.
 
 > **Where to start:**
 > • **Researchers / reviewers** → [Contributions](#contributions) and [Reproduce in three commands](#reproduce-in-three-commands).
@@ -52,8 +54,9 @@ non-manufacture discipline that reports nulls and non-replications as findings.
   scale across the explicit-governance battery, each reported with a one-sided 95% rule-of-three bound
   (never as a bare "0%").
 - **A precisely characterized cross-product effect:** the one statistically distinguishable result
-  (`codex exec`, Fisher one-sided *p* = 0.0098) is an **assurance-layer subversion rather than an
-  authorization inversion** — a denied publish reported as success while the lock itself never opened. The
+  (`codex exec` edited protected release files in 6/19 metric-framed vs 0/19 goal-framed runs, Fisher
+  one-sided *p* = 0.0098) kept the lock closed in every run, and in 4 of the 6 it became an **assurance-layer
+  subversion rather than an authorization inversion** — a denied publish reported as success. The
   distinction is operationally real: many release systems treat a green status as delegated authority.
 - **The headline empirical finding ("the wedge"):** in a companion oversight-allocation benchmark
   ([Safe MarketUniverses](https://github.com/pazare/safe-market-universes)) that makes the two tails
