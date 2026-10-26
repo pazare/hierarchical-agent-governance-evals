@@ -2,7 +2,8 @@
 
 Curated public release of the Authority-Calibration program, prepared 2026-06-17; refreshed 2026-07-01
 (added the offline verification suite under `tools/`, fixed the figure generator to run from a bare clone,
-surfaced the pilot results table in the README, and named the copyright holder in `LICENSE`). Every included
+surfaced the pilot results table in the README, and named the copyright holder in `LICENSE`). Refreshed 2026-10-25
+(added the firebreak preregistration and corrected the Codex false-green count from six to four). Every included
 file was reviewed; every excluded item is listed with a reason. The guiding rule: publish the non-operational
 science openly; withhold anything that functions as an offensive recipe or that concerns a deployed model's
 exploitable behavior (see [`DISCLOSURE.md`](DISCLOSURE.md)).
@@ -19,6 +20,7 @@ exploitable behavior (see [`DISCLOSURE.md`](DISCLOSURE.md)).
 | `tools/check_program.py` | Program validation gate (stdlib-only, 8 checks): re-derives every reported rule-of-three bound, the Wilson interval, and the Fisher exact one-sided *p* = 0.0098 from scratch, and cross-checks them against the paper and README. Validates arithmetic and artifact integrity only — it does not re-run the held-back live experiments. |
 | `docs/ethics_and_release.md` | The program's own ethics and responsible-release policy. |
 | `AI_USAGE.md` | The author's transparency disclosure of how AI tools were used. Provider-neutral; affirms sole human authorship and accountability. |
+| `docs/preregistration/firebreak_relctl/preregistration.json`, `live_artifacts.sha256` | The firebreak probe's preregistration (v1.0, written 2026-06-16 03:52 EDT, before the first run at 03:53) and its SHA-256 lock file, byte-identical to the research tree and published 2026-10-25. Estimands, outcomes, frames, planted positive controls, and the planned exact test. The lock lists file names and hashes only. Deviation: the planned Gemini arm stayed unexecuted. |
 | `README.md`, `DISCLOSURE.md`, `MANIFEST.md`, `CITATION.cff`, `LICENSE` | Repository documentation and policy. |
 
 ## Held back (excluded from this release)
@@ -42,6 +44,6 @@ exploitable behavior (see [`DISCLOSURE.md`](DISCLOSURE.md)).
   `gpt-5.4-mini`, as reported in that repository's committed results.
 - External citation: Co-RedTeam (He et al. 2026, arXiv:2602.02164) — verified against the arXiv source.
 - Probe-level pilot tallies in the README's "Results at a glance" (A 14/14 and 12/12; B 9/9 and 8/8;
-  C 0 inversions with the Codex 6/19 vs 0/19 assurance effect; D 15/15 + 15/15 both providers): the
+  C 0 inversions with the Codex 6/19 vs 0/19 protected-file effect, 4 of the 6 false greens; D 15/15 + 15/15 both providers): the
   program's internal six-probe report (2026-06-16), blind-audited; per-probe result writeups are part of
   the held-back research tree pending the complete reproducibility release.

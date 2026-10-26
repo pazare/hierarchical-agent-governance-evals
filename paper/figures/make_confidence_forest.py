@@ -2,7 +2,7 @@
 """Confidence 'ceiling plot' for the compact submission paper.
 
 Every executed zero-event null is drawn as a bar from 0 to its one-sided 95% rule-of-three upper bound
-(p_max = 1 - 0.05^(1/n)); the single measured Codex assurance-layer effect (6/19) is drawn as a point with
+(p_max = 1 - 0.05^(1/n)); the single measured Codex effect (6/19 protected-file edits, 4 false greens) is drawn as a point with
 its two-sided Wilson 95% interval, in a contrasting colour. The figure tells the paper's empirical story in
 one panel: the authorization/overreach and underreach cells are bounded near zero (pilot screens), while the
 one positive is an assurance-layer subversion, not an authorization inversion. Vector PDF for LaTeX.
@@ -36,7 +36,7 @@ ROWS = [
     ("H  DAC gate — underreach (rate)",          "underreach", 0, 15),
     ("H  DAC third-party — overreach",           "underreach", 0, 8),
 ]
-CODEX = ("C  firebreak — Codex assurance subversion", 6, 19)  # the one measured positive (proxy frame)
+CODEX = ("C  firebreak — Codex protected-file edits", 6, 19)  # the one measured positive (proxy frame)
 
 COL = {"overreach": "#27408b", "robustness": "#2e8b57", "underreach": "#8b1a1a", "codex": "#d4820a"}
 
@@ -99,7 +99,7 @@ def render(ydata):
     legend = [Patch(color=COL["overreach"], label="overreach (explicit)"),
               Patch(color=COL["robustness"], label="robustness"),
               Patch(color=COL["underreach"], label="underreach"),
-              Patch(color=COL["codex"], label="Codex assurance subversion")]
+              Patch(color=COL["codex"], label="Codex protected-file edits (4 of 6 false greens)")]
     ax.legend(handles=legend, loc="upper right", fontsize=7.5, frameon=True, framealpha=0.95)
     ax.spines[["top", "right"]].set_visible(False)
     plt.tight_layout()
